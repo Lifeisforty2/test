@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>yso443-Lab3</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.xtext.ui.shared.xtextBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>UML_LAB3.class.violet.html</name>
+			<type>1</type>
+			<location>/Users/cameron/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/3443 app programming/class_Labs/LAB_3/UML_LAB3.class.violet.html</location>
+		</link>
+	</linkedResources>
+</projectDescription>

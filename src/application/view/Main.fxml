@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <Label fx:id="welcomeID" layoutX="331.0" layoutY="199.0" prefHeight="22.0" prefWidth="119.0" text="Welcome!">
+         <font>
+            <Font name="Futura Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="selectID" layoutX="220.0" layoutY="227.0" prefHeight="25.0" prefWidth="442.0" text="Select a mission to view more information.">
+         <font>
+            <Font name="American Typewriter Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="92.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleApollo11" prefHeight="35.0" prefWidth="90.0" text="Apollo 11">
+         <font>
+            <Font name="Avenir Light" size="15.0" />
+         </font></Button>
+      <Button layoutX="332.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleApollo13" prefHeight="35.0" prefWidth="90.0" text="Apollo 13">
+         <font>
+            <Font name="Avenir Light" size="15.0" />
+         </font></Button>
+      <Button layoutX="584.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleApollo15" prefHeight="35.0" prefWidth="90.0" text="Apollo 15">
+         <font>
+            <Font name="Avenir Light" size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="162.0" fitWidth="801.0" layoutX="-3.0" layoutY="1.0">
+         <image>
+            <Image url="@../../../images/header-JamesWebb.jpeg" />
+         </image>
+      </ImageView>
+      <Label fx:id="leftSC" layoutX="96.0" layoutY="463.0" textAlignment="CENTER">
+         <font>
+            <Font name="DIN Alternate Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="rightSC" layoutX="575.0" layoutY="463.0" textAlignment="CENTER">
+         <font>
+            <Font name="DIN Alternate Bold" size="15.0" />
+         </font></Label>
+      <ImageView fx:id="leftImageID" fitHeight="250.0" fitWidth="300.0" layoutX="59.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="rightImageID" fitHeight="250.0" fitWidth="300.0" layoutX="475.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="missionID" layoutX="294.0" layoutY="231.0" textFill="#2b0ad3">
+         <font>
+            <Font name="Menlo Regular" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
